@@ -19,6 +19,10 @@ const Post = ({ post }) => {
                 <Button style={{color: 'white'}} size="small" onClick={() => {}}>
                     <MoreHorizIcon fontsize="default" />
                 </Button>
+        
+            </div>
+            <div>
+                
             </div>
         </Card>
     )
