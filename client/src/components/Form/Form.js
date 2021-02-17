@@ -7,6 +7,7 @@ import { useDispatch } from 'react-redux';
 import useStyles from './styles';
 import {createPost } from '../../actions/posts';
 
+//Get the id
 const Form = () => {
     const [postData, setPostData] = useState({
         creator: '',
