@@ -9,7 +9,7 @@ const Auth = () => {
 
     const [showPassword, setShowPassword] = useState(false);
 
-    const isSignUp = true;
+    const [ isSignUp, setIsSignUp ] = useState(false);
 
     const handleSubmit = () => {
 
@@ -19,7 +19,8 @@ const Auth = () => {
     };
 
     const switchMode = () => {
-
+        setIsSignUp((prevIsSignUp) => !prevIsSignUp)
+        handleShowPassword(false)
     }
 
     const handleShowPassword = () => setShowPassword((prevShowPassword) =>!prevShowPassword);
