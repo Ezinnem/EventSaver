@@ -4,12 +4,12 @@ Memory is an online social media tool that allows users to create and post the e
 # Features
 
 # Core Features
-1. Users can sign up.
-2. Users can sign in.
-3. Users can post the events.
-4. Users can like the posts.
-5. User can delete own posts.
-6. User can view comments.
+1. Users sign up using Google OAuth.
+2. Users sign up using JWT.
+3. Users can sign in.
+4. Users can post the events.
+5. Users can like the posts.
+6. User can delete own posts.
 
 # Extra Features
 1. User can reset password.
