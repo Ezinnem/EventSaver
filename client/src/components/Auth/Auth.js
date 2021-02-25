@@ -28,16 +28,17 @@ const Auth = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
+        console.log(formData, 'This is the form data from components/Auth')
         if(isSignUp) {
             dispatch(signup(formData, history))
-
+            console.log(formData, 'This is the form data from components/Auth')
         } else {
             dispatch(signin(formData, history))
 
         }
 
     };
+
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value})
 
