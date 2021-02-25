@@ -24,4 +24,4 @@ export const signup = (formData, history) => async (dispatch) => {
     } catch (error) {
         console.log(error)
     }
-}
+};
