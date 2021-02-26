@@ -1,5 +1,5 @@
-# Memory
-Memory is an online social media tool that allows users to create and post the events around them. User can like events that are posted.
+# EventSaver
+EventSaver is an online social media application that allows users to create and post the events around them. User can like events that are posted.
 
 # Features
 
