@@ -10,7 +10,3 @@ EventSaver is an online social media application that allows users to create and
 4. Users can post the events.
 5. Users can like the posts.
 6. User can delete own posts.
-
-# Extra Features
-1. User can reset password.
-
