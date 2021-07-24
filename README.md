@@ -10,4 +10,4 @@ Just like in a social media application, users can like posted events, edit and 
 3. Users can sign in.
 4. Users can post the events.
 5. Users can like the posts.
-6. User can delete own posts
+6. User can delete own posts.
